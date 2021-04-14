@@ -1,0 +1,48 @@
+:root {
+    --gray-light-1: #b7bbc8;
+    --dark-gray-1: #717790;
+    --dark-gray-2: #2c303a;
+}
+
+* {
+    font-family: 'Inconsolata', monospace;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* body {
+    background-image: url("../images/wall.jpg");
+    background-size: cover;
+}
+
+#container {
+    margin: 15%;
+} */
+
+nav {
+    margin: 0;
+    padding: 0;
+    background-color: var(--dark-gray-1);    
+}
+
+ul {
+    height: 50px;
+    list-style: none;
+    text-align: center;
+    overflow: hidden;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    transition: background-color .5s;
+}
+
+a:hover{
+    background-color: var(--gray-light-1);
+}
+
