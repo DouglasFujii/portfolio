@@ -33,14 +33,14 @@ nav ul li {
     margin: 0 20px 0 20px;
 }
 
-a {
+nav a {
     text-decoration: none;
     color: white;
     padding: 20px;
     transition: background-color .5s;
 }
 
-a:hover{
+nav a:hover{
     background-color: var(--dark-gray-1);
 }
 
@@ -71,15 +71,19 @@ a:hover{
 }
 
 #home_text button {
-    border: 3px solid #EE5C0C;
-    border-radius: 25px;
     background-color: rgba(0, 0, 0, 0.0); /* transparent background */
     height: 40px;
     width: 200px;
     margin-top: 40px;
     font-size: 25px;
-    color: white;
     text-align: center;    
+}
+
+.border {
+    text-decoration: none;
+    color: white;
+    border: 3px solid #EE5C0C;
+    border-radius: 30px;
 }
 
 #home img {
@@ -113,7 +117,7 @@ a:hover{
     margin-bottom: 15px;
 }
 
-/* ----------------------------------- home ----------------------------------- */
+/* ----------------------------------- works ----------------------------------- */
 
 #works_section {
     height: 720px;
@@ -147,4 +151,61 @@ a:hover{
     width: 240px;
     height: 240px;
     background-color: var(--dark-gray-3);
+}
+
+/* ----------------------------------- contact ----------------------------------- */
+
+#contact {
+    height: 415px;
+    background-color: var(--dark-gray-3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#contact h1 {
+    color: white;
+    text-align: center;
+    font-size: 60px;
+}
+
+#contact p {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 30px;
+    width: 600px;;
+}
+
+#email {
+    width: 250px;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+#social {
+    display: flex;
+    margin: 25px;
+    width: 200px;
+    justify-content: space-between;
+}
+
+.social_buttons {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social_buttons a {
+    height: 35px;
+    width: 35px;
+}
+
+.social_buttons img {
+    height: 100%;
+    width: 100%;
 }
