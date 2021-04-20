@@ -9,28 +9,40 @@ const works = [
 ];
 const workGrid = document.getElementById('work_grid');
 
-// cria um elemento para cada trabalho em works
-works.forEach((element) => {return createWorkElement(element, WORKS, showDetails)});
+workElement(works)
+
+function workElement(works) {
+    // cria um elemento para cada trabalho em works
+    works.forEach((element) => {
+        return createWorkElement(element, WORKS, showDetails)
+    });
+}
 
 function createWorkElement(element, c, f) {
-    const div = document.createElement('div');
-    const img = document.createElement('img');
+    const workElement = document.createElement('div');
+    const workImage = document.createElement('img');
 
-    img.src = './assets/images/' + element + '.png';
+    workImage.src = './assets/images/' + element + '.png';
 
-    img.classList.add('img');
+    workImage.classList.add('img');
 
-    div.appendChild(img);
+    workElement.appendChild(workImage);
 
-    div.classList.add(c);
+    workElement.id = element;
+
+    workElement.classList.add(c);
    
-    div.addEventListener('click', f);
+    workElement.addEventListener('click', f);
 
-    workGrid.appendChild(div);
+    workGrid.appendChild(workElement);
 }
 
 function showDetails() {
-    const details = document.getElementById('details');
+    const details = document.createElement('div');
 
-    details.innerHTML = 'Detalhes aqui'
+    details.id = 'details';
+
+    workGrid.appendChild(details)
+
+    console.log(this.id);
 }
