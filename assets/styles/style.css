@@ -151,6 +151,11 @@ nav a:hover{
     width: 240px;
     height: 240px;
     background-color: var(--dark-gray-3);
+    overflow: hidden;
+}
+
+.img {
+    width: 100%;    
 }
 
 /* ----------------------------------- contact ----------------------------------- */
