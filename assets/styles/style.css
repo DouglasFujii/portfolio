@@ -160,6 +160,12 @@ nav a:hover{
     cursor: pointer;
 }
 
+.img {
+    width: 100%;
+}
+
+/* ----------------------------------- modal ----------------------------------- */
+
 #modal {
     width: 740px;
     height: 490px;
@@ -172,16 +178,16 @@ nav a:hover{
     margin-top: 15px;
 }
 
+#modal p a {
+    color: #EE5C0C;
+}
+
 #modal button{
     background-color: rgba(0, 0, 0, 0.0);
     height: 30px;
     width: 200px;
     margin-left: 30px;
     cursor: pointer;
-}
-
-.img {
-    width: 100%;
 }
 
 #details {
