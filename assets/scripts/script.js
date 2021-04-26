@@ -166,7 +166,7 @@ function showDetails() {
             h1.innerHTML = 'Calculadora';
 
             // descrição
-            p1.innerHTML = 'Projeto de uma calculador utilizando JavaScript, visando estudar a linguagem. ';
+            p1.innerHTML = 'Projeto de uma calculador utilizando JavaScript, com o objetivo de estudar e fixar a linguagem.';
 
             // texto para gitHub
             p2.innerHTML = 'Confira o código no ';
