@@ -1,2 +1,3 @@
 <h1 align="center">Portifólio Pessoal</h1>
 <h3>Utilizei a plataforma Figma para construção do layout da página. Tive dificuldade para desenvolver o layout, então busquei algumas referências no Pinterest. Encontrar cores, fontes, fotos e formas não foi fácil.</h3>
+<h3>Com esse trabalho percebi a importância de criar um layout e todo o funcionamento da página antes de iniciar o código. Esse foi o primeiro trabalho que foi totalmente desenvolvido por mim sem ter relação com o curso de desenvolvimento web. Me diverti muito desenvolvendo esse trabalho e foi ótimo para praticar meus conhecimentos.</h3>
